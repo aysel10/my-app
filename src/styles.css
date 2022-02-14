@@ -1,6 +1,8 @@
  
 body {
     margin: 0;
+    font-family: Inter, sans-serif;
+    height: 100vh;
     background-color: #282D35;
 } 
 
@@ -8,7 +10,7 @@ nav{
     display: flex;
     align-items: center;
     background-color: #21222A;
-    height: 90px;
+    height: 60px;
     padding: 30px 25px;
 }
 
@@ -17,9 +19,36 @@ nav{
 }
 .nav--title{
     color: white;
-    font-weight: 600s;
+    font-weight: 600;
 }
 .nav--icon {
     height: 30px;
     margin-right: 7px;
+}
+.nav--logo_text {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+main {
+    padding: 57px 27px;
+    color: white;
+    background-image: url(./images/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+.main--title{
+    margin-top: 26px;
+    max-width: 400px;
+}
+.main--facts {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--facts > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
 }
